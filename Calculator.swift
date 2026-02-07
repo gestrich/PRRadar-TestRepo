@@ -15,4 +15,9 @@ class Calculator {
         guard b != 0 else { return nil }
         return Double(a) / Double(b)
     }
+
+    func modulo(_ a: Int, _ b: Int) -> Int? {
+        guard b != 0 else { return nil }
+        return a / b * b == a ? 0 : a - (a / b) * b
+    }
 }
