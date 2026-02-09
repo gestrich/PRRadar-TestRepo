@@ -121,7 +121,7 @@ Apply all 29 spelling corrections to `README.md` in a single pass, using the Pha
 - No `Package.swift` exists; the project is a single-file Swift script (`Calculator.swift`). Running `swift Calculator.swift` succeeds without errors, confirming the build is unaffected.
 - No new spelling or grammar errors were introduced.
 
-## - [ ] Phase 5: Testing and Verification
+## - [x] Phase 5: Testing and Verification
 
 **Objective:** Verify the corrected README is free of spelling errors and builds/renders correctly.
 
@@ -139,6 +139,14 @@ Apply all 29 spelling corrections to `README.md` in a single pass, using the Pha
 - No new spelling or grammar errors introduced
 - Markdown formatting renders correctly
 - Repository build is unaffected
+
+### Technical Notes
+
+- **Spelling verification:** Searched `README.md` for all 29 original misspellings using regex — zero matches found, confirming all corrections were applied in Phase 4.
+- **Correctness check:** Verified all 29 corrected words are present in the expected locations throughout the file.
+- **No new errors:** Reviewed every line of the corrected `README.md` word by word — no new spelling or grammar errors were introduced.
+- **Markdown structure preserved:** The file retains its original structure: 1 H1 heading, 5 H2 headings (Overview, Features, Getting Started, Contributing, License), 4 bullet points, and 1 fenced code block. Only the misspelled words were changed.
+- **Build unaffected:** `swift Calculator.swift` runs successfully with no errors. No `Package.swift` exists; the project is a standalone Swift script.
 
 ## - [ ] Phase 6: Create Pull Request
 
