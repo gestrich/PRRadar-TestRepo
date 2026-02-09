@@ -1,30 +1,30 @@
-# PRRadar Test Repostory
+# PRRadar Test Repository
 
-A simple test repostory for validating the DevPilot CLI funtionality.
+A simple test repository for validating the DevPilot CLI functionality.
 
-## Overveiw
+## Overview
 
-This project contians a basic Swift calculator implmentation that demonstraets common arithmetic operatoins. It is primarly used as a sandox for testing automated developement workflows.
+This project contains a basic Swift calculator implementation that demonstrates common arithmetic operations. It is primarily used as a sandbox for testing automated development workflows.
 
-## Fetures
+## Features
 
-- Addition and subtraction of numbrs
-- Multipication and divison support
-- Error handeling for divde-by-zero scenarioes
-- Clean, readble Swift code
+- Addition and subtraction of numbers
+- Multiplication and division support
+- Error handling for divide-by-zero scenarios
+- Clean, readable Swift code
 
-## Geting Started
+## Getting Started
 
-To run the calculater, make sure you have Swift intalled on your systm:
+To run the calculator, make sure you have Swift installed on your system:
 
 ```bash
 swift Calculator.swift
 ```
 
-## Contriubting
+## Contributing
 
-Feel free to submitt pull requsts. All changes should be accompained by approriate tests.
+Feel free to submit pull requests. All changes should be accompanied by appropriate tests.
 
-## Liscense
+## License
 
-This project is availible under the MIT liscense.
+This project is available under the MIT license.

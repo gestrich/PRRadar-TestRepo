@@ -92,7 +92,7 @@ Based on Phases 1 and 2, this is a straightforward documentation-only change. Al
 **Approach:**
 Apply all 29 spelling corrections to `README.md` in a single pass, using the Phase 1 catalog as the definitive list. Verify the corrected file preserves the original Markdown structure.
 
-## - [ ] Phase 4: Apply Spelling Fixes
+## - [x] Phase 4: Apply Spelling Fixes
 
 **Objective:** Correct all 29 spelling errors in `README.md`.
 
@@ -113,6 +113,13 @@ Apply all 29 spelling corrections to `README.md` in a single pass, using the Pha
 - No other text has been changed
 - Markdown structure (headings, bullet points, code blocks) is preserved
 - File renders correctly as Markdown
+
+### Technical Notes
+
+- All 29 spelling corrections from the Phase 1 catalog were applied in a single pass to `README.md`.
+- The Markdown structure (headings, bullet lists, code block) is preserved identically — only misspelled words were changed.
+- No `Package.swift` exists; the project is a single-file Swift script (`Calculator.swift`). Running `swift Calculator.swift` succeeds without errors, confirming the build is unaffected.
+- No new spelling or grammar errors were introduced.
 
 ## - [ ] Phase 5: Testing and Verification
 
