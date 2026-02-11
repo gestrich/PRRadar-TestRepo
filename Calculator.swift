@@ -15,4 +15,19 @@ class Calculator {
         guard b != 0 else { return nil }
         return Double(a) / Double(b)
     }
+
+    func safeReciprocal(_ a: Int) -> Double? {
+        guard a != 0 else { return nil }
+        return 1.0 / Double(a)
+    }
+
+    func integerDivide(_ a: Int, _ b: Int) -> Int? {
+        guard b != 0 else { return nil }
+        return a / b
+    }
+
+    func modulo(_ a: Int, _ b: Int) -> Int? {
+        guard b != 0 else { return nil }
+        return a / b * b == a ? 0 : a - (a / b) * b
+    }
 }
