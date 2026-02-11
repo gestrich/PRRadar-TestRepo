@@ -1,7 +1,7 @@
 ---
 description: Division operations should return a Result type or throw rather than returning nil
 category: safety
-focus_type: method
+focus_type: file
 applies_to:
   file_patterns:
     - "*.swift"
