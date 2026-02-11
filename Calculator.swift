@@ -16,6 +16,11 @@ class Calculator {
         return Double(a) / Double(b)
     }
 
+    func integerDivide(_ a: Int, _ b: Int) -> Int? {
+        guard b != 0 else { return nil }
+        return a / b
+    }
+
     func modulo(_ a: Int, _ b: Int) -> Int? {
         guard b != 0 else { return nil }
         return a / b * b == a ? 0 : a - (a / b) * b
