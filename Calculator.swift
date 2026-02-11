@@ -1,3 +1,10 @@
+// Calculator provides basic arithmetic operations
+//
+//
+//
+//
+//
+
 class Calculator {
     func add(_ a: Int, _ b: Int) -> Int {
         return a + b
